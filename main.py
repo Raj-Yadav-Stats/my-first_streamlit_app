@@ -5,3 +5,5 @@ st.set_page_config(
 )
 st.title("Main Page")
 st.sidebar.sucess('Pages Above')
+with st.sidebar:
+    st.page_link("pages/data.py",label="Home",icon="🏠")
