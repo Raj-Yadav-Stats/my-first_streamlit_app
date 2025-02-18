@@ -4,3 +4,4 @@ st.set_page_config(
     page_icon="—"
 )
 st.title("Main Page")
+st.sidebar.sucess('Pages Above')
